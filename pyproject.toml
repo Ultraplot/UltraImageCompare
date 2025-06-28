@@ -37,10 +37,10 @@ dependencies = [
 ]
 dynamic = ["version"]
 
-[tool.setuptools]
-packages = { find = {} }
+
 [tool.setuptools.packages.find]
 include = ["pytest_ultraimagecompare"]
+exclude = ["tests"]
 
 [tool.setuptools_scm]
 write_to = "pytest_ultraimagecompare/_version.py"
