@@ -41,5 +41,5 @@ dynamic = ["version"]
 packages = { include = "pytest_ultraimagecompare"}
 
 [tool.setuptools_scm]
-write_to = "src/_version.py"
+write_to = "pytest_ultraimagecompare/_version.py"
 write_to_template = "__version__ = '{version}'\n"
